@@ -53,28 +53,63 @@
       <h1 class="jumbotron-heading titulosBrancos">Giomerito Alves de Souza</h1>
       <p class="lead texto-branco">Coordenador de Operações | Assistente Administrativo
       <p>
-        <a href="#" class="btn btn-dark my-2">Contato</a>
+        <a href="#" class="btn btn-dark my-2" onclick="viewModal()">Contato</a>
       </p>
-      <a href="https://www.linkedin.com/in/giomerito-alves-de-souza-50347b126/"><i class="texto-branco fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/giomerito-alves-de-souza-50347b126/"><i
+          class="texto-branco fab fa-linkedin"></i></a>
       <a href="https://github.com/giomeritodev"><i class="icones texto-branco fab fa-github"></i></a>
-      <a href="https://www.facebook.com/profile.php?id=100014984772036"><i class="icones texto-branco fab fa-facebook"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100014984772036"><i
+          class="icones texto-branco fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/giomeritoalves/"><i class="icones texto-branco fab fa-instagram"></i></a>
     </div>
   </section>
 
+  <!--Modal contato-->
+  <div id="modal-wrapper" class="modal">
+
+    <form class="modal-content animate">
+      <div class="contato">
+        <div>
+          <span onclick="closeModal()" class="close" title="Close PopUp">&times;</span>
+          <img class="foto-perfil"
+            src="https://avatars.githubusercontent.com/u/38664875?s=460&u=f1c866cd2e4ac5deb38d15a031b7950ff852c414&v=4"
+            alt="Giomerito Alves">
+          
+        </div>
+
+        <div>
+          <h1 style="text-align:center">Giomerito Alves de Souza</h1>
+          <h3>Email:</h3>
+          <p>giomerito.souza@gmail.com | giomerito.dev@gmail.com</p>
+          <h3>Telefones:</h3>
+          <p>(63)9 9935-7157 - (77)9 9966-6600</p>
+
+          <h3>Endereço:</h3>
+          <p>Avenida dos Buritis, Quadra 54 Lote 4</p>
+          <p>Parque dos Buritis - Luzimangues</p>
+
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+
   <!--Experiencias profissionaiss-->
   <div class="album py-5 bg-light">
     <div class="container" id="experiencias">
+
       <h2 class="jumbotron-heading text-center titulosVerdes">Experiências Profisionais</h2>
+
       <div class="row">
 
         <div class="col-md-6">
           <div class="card mb-4 box-shadow">
-            
+
             <div class="card-body">
               <p class="card-text">
-                <h3>Tudo On Telecomunicações</h3>
-                <h5 class="text-muted">Assistente Administrativo</h5>
+              <h3>Tudo On Telecomunicações</h3>
+              <h5 class="text-muted">Assistente Administrativo</h5>
               </p>
               <ul class="text">
                 <li>Atendimento ao cliente</li>
@@ -92,11 +127,11 @@
 
         <div class="col-md-6">
           <div class="card mb-4 box-shadow">
-            
+
             <div class="card-body">
               <p class="card-text">
-                <h3>Sorveteria Bem Mais Sorvetes</h3>
-                <h5 class="text-muted">Proprietário</h5>
+              <h3>Sorveteria Bem Mais Sorvetes</h3>
+              <h5 class="text-muted">Proprietário</h5>
               </p>
               <ul class="text">
                 <li>Fabricação de alimentos gelados</li>
@@ -114,11 +149,11 @@
 
         <div class="col-md-6">
           <div class="card mb-4 box-shadow">
-            
+
             <div class="card-body">
               <p class="card-text">
-                <h3>Souza Crus S.A</h3>
-                <h5 class="text-muted">Auxiliar de Depósito</h5>
+              <h3>Souza Crus S.A</h3>
+              <h5 class="text-muted">Auxiliar de Depósito</h5>
               </p>
               <ul class="text">
                 <li>Conferência de Cargas</li>
@@ -136,11 +171,11 @@
 
         <div class="col-md-6">
           <div class="card mb-4 box-shadow">
-            
+
             <div class="card-body">
               <p class="card-text">
-                <h3>Eldorado Armazéns e Logística Ltda</h3>
-                <h5 class="text-muted">Auxiliar de Diretoria</h5>
+              <h3>Eldorado Armazéns e Logística Ltda</h3>
+              <h5 class="text-muted">Auxiliar de Diretoria</h5>
               </p>
               <ul class="text">
                 <li>Compras</li>
@@ -158,11 +193,11 @@
 
         <div class="col-md-6">
           <div class="card mb-4 box-shadow">
-            
+
             <div class="card-body">
               <p class="card-text">
-                <h3>Transportes Luft Ltda</h3>
-                <h5 class="text-muted">Coordenador de Operações</h5>
+              <h3>Transportes Luft Ltda</h3>
+              <h5 class="text-muted">Coordenador de Operações</h5>
               </p>
               <ul class="text">
                 <li>Responsável pelo o armazém</li>
@@ -243,5 +278,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/8760e83dab.js" crossorigin="anonymous"></script>
+<script src="scripts/modal.js"></script>
 
 </html>
