@@ -4,8 +4,8 @@
 }
 
 .foto-perfil{ 
-    height: 100%;
-    width: auto;
+    height: 50%;
+    width: 50%;
     max-width: 100%;
     border-radius: 50%;
 }
